@@ -19,7 +19,7 @@
     </author>
 	
 	
-	<content src="http://bn.tagfans.com/public/jqm.html?cordova=1"/>
+	<content src="http://store.tagfans.com/index.html?cordova=1"/>
 	
 		
     <!--
@@ -75,7 +75,7 @@
 
 	<!--<platform name="ios">-->
 	<gap:plugin name="com.tagfans.cordova.iospushplugin"
-      version="0.0.1" />
+      version="0.0.2" />
 	<!--</platform>-->
 	
     <!-- Third party plugins -->
@@ -119,7 +119,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>1.0.2</string>
+    <string>1.1.0</string>
     </gap:config-file>
 	
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
