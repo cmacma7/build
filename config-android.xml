@@ -93,7 +93,12 @@
 	</platform>
 	
 	<gap:plugin name="com.venkykowshik.startapp" version="0.0.1" />
-		
+
+	<!--Define url schema-->	
+	<gap:plugin name="com.tagfans.url.scheme" version="0.1.0">
+		<param name="URL_SCHEME" value="tagfans" />
+	</gap:plugin>
+	
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
@@ -128,7 +133,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>1.1.3</string>
+    <string>1.1.4</string>
     </gap:config-file>
 	
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
