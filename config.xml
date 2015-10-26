@@ -77,7 +77,7 @@
 
 	<!--<platform name="ios">-->
 	<gap:plugin name="com.tagfans.cordova.iospushplugin"
-      version="0.0.2" />
+      version="0.0.3" />
 	<!--</platform>-->
 	
     <!-- Third party plugins -->

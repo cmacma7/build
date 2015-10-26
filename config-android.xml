@@ -33,7 +33,7 @@
     <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
-    <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="webviewbounce"              value="true" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
 	<preference name="DisallowOverscroll" value="true" />
     <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
@@ -94,11 +94,12 @@
 	
 	<gap:plugin name="com.venkykowshik.startapp" version="0.0.1" />
 
-	<!--Define url schema-->	
+	<!--Define url schema-->
+	<!--	
 	<gap:plugin name="com.tagfans.url.scheme" version="0.1.0">
 		<param name="URL_SCHEME" value="tagfans" />
 	</gap:plugin>
-	
+	-->
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
